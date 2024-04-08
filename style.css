@@ -197,3 +197,47 @@ main {
 .hidden{
   display: none;
 }
+
+ /* CSS code for mobile devices */
+@media only screen and (max-width: 600px) {
+  main {
+    width: 90vw;
+    height: 90vh;
+    padding: 1rem;
+  }
+
+  .player {
+    padding: 1rem 2rem;
+  }
+
+  .name {
+    font-size: 1.8rem;
+  }
+
+  .score {
+    font-size: 3.6rem;
+  }
+
+  .current {
+    padding: 1rem;
+    font-size: 1.6rem;
+  }
+
+  .current-label {
+    font-size: 1.2rem;
+  }
+
+  .current-score {
+    font-size: 2.4rem;
+  }
+
+  .btn {
+    font-size: 1.4rem;
+    padding: 0.5rem 1.5rem;
+  }
+
+  .dice {
+    height: 6rem;
+  }
+
+}
